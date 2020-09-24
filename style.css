@@ -1,0 +1,49 @@
+html {
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+a {
+    color: #0366d6;
+}
+
+div, h1, h2, h3, h4, h5, h6, p {
+    color: #24292e;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#contact > div {
+    padding: 0 15px 15px 15px;
+}
+
+.project {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    max-width: 33%;
+    padding: 16px;
+}
+
+.project > p {
+    color: black;
+}
+
+.icon {
+    margin-top: 3px;
+    display: inline-flex;
+    align-self: center;
+    height: 1em;
+    width: 1em;
+    fill: currentColor;
+    vertical-align: top;
+}
